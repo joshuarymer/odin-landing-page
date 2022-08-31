@@ -37,6 +37,23 @@ button {
     
 }
 
+.hero {
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-card {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+
+}
+
 .imageboard {
     background-color: white;
 }
@@ -66,4 +83,8 @@ button {
 
 #logo {
     font-size: 24px;
+}
+
+#hero-header {
+    font-size: 48px;
 }
