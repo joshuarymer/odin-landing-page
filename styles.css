@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.imageboard {
+    background-color: white;
+}
+
+.quoteboard {
+    background-color: #e5e7eb;
+}
+
+.signup-prompt {
+    background-color: #3882f6;
+}
+
+.hel-bold {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+.grey-txt {
+    color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.im-txt {
+    color: rgb(129, 129, 129);
+    font-family: Arial, Helvetica, sans-serif;
+}
