@@ -116,7 +116,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    gap: 16px;
+    padding: 100px;
 }
 
 .signup-prompt {
@@ -173,4 +174,5 @@ button {
 
 #quotee {
     color: #1f2937;
+    margin-left: 500px;
 }
