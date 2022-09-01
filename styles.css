@@ -120,10 +120,30 @@ button {
     padding: 100px;
 }
 
-.signup-prompt {
-    background-color: #3882f6;
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
+.signup-prompt {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 25px 75px;
+    display: flex;
+    align-items: center;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.signup-sub {
+    font-size: smallr;
+}
 .hel-bold {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 800;
@@ -175,4 +195,8 @@ button {
 #quotee {
     color: #1f2937;
     margin-left: 500px;
+}
+
+#signup-header {
+    color: #e5e7eb;
 }
