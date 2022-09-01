@@ -26,7 +26,7 @@ li {
 
 button {
     background-color: #3882f6;
-    color: white;
+    color: #e5e7eb;
     height: 30px;
     width: 100px;
     border: 1px solid #3882f6;
@@ -142,7 +142,7 @@ button {
 }
 
 .signup-sub {
-    font-size: smallr;
+    font-size: small;
 }
 .hel-bold {
     font-family: Helvetica, Arial, sans-serif;
@@ -199,4 +199,9 @@ button {
 
 #signup-header {
     color: #e5e7eb;
+}
+
+#su-button {
+    border: 2px solid #e5e7eb;
+    margin-left: 100px
 }
