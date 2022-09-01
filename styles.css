@@ -22,6 +22,10 @@ a {
 button {
     background-color: #3882f6;
     color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
 }
 
 .header, .hero, .footer {
@@ -30,7 +34,7 @@ button {
 }
 
 .header {
-    padding: 5px 100px;
+    padding: 5px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,16 +42,26 @@ button {
 }
 
 .hero {
-    padding: 50px 100px;
+    padding: 50px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 30px;
 
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
 }
 
 .hero-card {
     background-color: darkgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     display: flex;
+    flex: 1 0 auto;
     justify-content: center;
     align-items: center;
     height: 200px;
