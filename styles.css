@@ -139,11 +139,19 @@ button {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    white-space: nowrap;
 }
 
 .signup-sub {
     font-size: small;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hel-bold {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 800;
@@ -195,6 +203,7 @@ button {
 #quotee {
     color: #1f2937;
     margin-left: 500px;
+    white-space: nowrap;
 }
 
 #signup-header {
@@ -203,5 +212,10 @@ button {
 
 #su-button {
     border: 2px solid #e5e7eb;
-    margin-left: 100px
+    margin-left: 100px;
+    white-space: nowrap;
+}
+
+#footer-txt {
+    margin: 30px 0;
 }
