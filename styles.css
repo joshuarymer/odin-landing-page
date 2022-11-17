@@ -47,7 +47,7 @@ button {
 }
 
 .hero {
-    padding: 50px 200px;
+    padding: 50px 21ß0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +60,7 @@ button {
     flex-direction: column;
     flex: 0 0 auto;
     justify-content: space-between;
-    height: 200px;
+    height: 210px;
     width: 400px;
     
 }
