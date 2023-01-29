@@ -39,7 +39,7 @@ button {
 }
 
 .header {
-    padding: 5px 200px;
+    padding: 5px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,11 +47,11 @@ button {
 }
 
 .hero {
-    padding: 50px 21ß0px;
+    padding: 50px 21px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: center;
+    gap: 100px;
 
 }
 
